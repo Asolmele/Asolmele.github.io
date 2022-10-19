@@ -251,12 +251,6 @@ img#background ~ *{
 }
 
 
-
-.project{
-    display:none;
-    flex-direction: column;
-}
-
 .projectInfoContainer{
     width: 80%;
     align-self: center;
@@ -282,4 +276,10 @@ img#background ~ *{
 .projectImage img{
     max-width: 99%;
 }
+
+.project{
+    display:none;
+    flex-direction: column;
+}
+
 
