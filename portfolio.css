@@ -1,0 +1,257 @@
+
+
+
+
+
+
+body{
+    margin: 0%;
+    height: 100%;
+}
+
+#window{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    
+
+}
+
+#homeWindow{
+
+    background-color: black;
+}
+
+.window{
+    display: flex;
+    flex-direction: column;
+}
+
+#homeHeader{
+
+    z-index: 2;
+}
+
+.header{
+        
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 5%;
+    max-height: 5%;
+    background-color: rgb(18, 4, 24);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+#homeContent{
+    width: 100%;
+    
+    position:relative;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 95%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+#projectContent{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 95%;
+    background-color: rgb(234, 223, 223);
+    text-align: center;
+}
+
+
+img#background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    }
+
+img#background ~ *{
+    position: relative;
+    z-index : 1;
+}
+
+#homeHeader > div{
+    max-height: 5%;
+}
+
+.return {
+    display: inline-block;
+    margin-left: 1%;
+    height: 100%;
+    width: 3%;
+}
+
+.return > img{
+    max-height:100%;
+}
+
+#projectsType{
+    display:inline-block;
+    width: 94%;
+    margin-bottom: 3%;
+    height: 100%;
+    
+    
+}
+
+.return ~ a{
+    color: white;
+    margin-right: 1%;
+    margin-top: 1%;
+ 
+    
+}
+
+#projectContent > div{
+    margin-top: 2%;
+    
+    border:5px;
+    border-style: solid;
+    
+    background-color: white;
+    
+}
+
+#projSelector{
+    margin-left:20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height:20%;
+}
+
+#currentProj{
+    margin-left: 4%;
+    margin-right:4%;
+    height: 50%;
+    overflow: auto;
+    display: none;
+    flex-direction: column;
+
+}
+
+#currentProj  h1{
+    align-self: center;
+}
+
+.proj{
+    margin-top: 2%;
+
+}
+
+
+
+#projectContent > h1{
+    margin-top: 1%;
+    font-size: 400%;
+    
+}
+
+
+
+#title{
+    font-size:600%;
+    color: white;
+    margin-bottom: 1%;
+}
+
+#title + h1{
+    font-size: 600%;
+    color:white;
+    margin-top: 3%;
+}
+
+#title + h1 + h1{
+    font-size: 400%;
+    color:gray;
+    margin-bottom: 1%;
+
+}
+
+
+@keyframes arrowAnimDown {
+    from {margin-top: 0%;}
+    to {margin-top: 5%;}
+}
+
+@keyframes arrowAnimUp {
+    from {margin-top: 5%;}
+    to {margin-top: 0%;}
+}
+  
+
+#arrow{
+    width: 5%;
+    animation: arrowAnimDown 4s ease alternate infinite;
+    
+}
+
+
+
+
+
+#presentation{
+    background-color: rgb(219, 212, 203);
+}
+
+#presentation > h1{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+
+
+.headerInfo{
+    float:right;
+    display: block;
+    color: white;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+@media screen and (max-height: 500px) {
+
+    .header{
+        display: none;
+    }
+
+    #title{
+        font-size:300%;
+        color: white;
+        margin-bottom: 1%;
+    }
+    
+    #title + h1{
+        font-size: 300%;
+        color:white;
+        margin-top: 3%;
+    }
+    
+    #title + h1 + h1{
+        font-size: 200%;
+        color:gray;
+        margin-bottom: 1%;
+    
+    }
+}
+
+
+
+.project{
+    display:none;
+}

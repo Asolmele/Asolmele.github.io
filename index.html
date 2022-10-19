@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>FOUSSAC Mathis</title>
+        <meta charset="utf-8"> 
+        <link href="portfolio.css" rel="stylesheet">
+        <script src="portfolio.js"> </script>
+        
+    </head>
+
+    <body onload="setHeight()" onresize="setHeight()" >
+        
+        <div id="window">
+
+            <div id="homeWindow" class="window">
+
+                <div class="header" id="homeHeader">
+
+                        <a href="#homeWindow" class="return"><img src="./img/homeIcon.png"></a>
+                        
+                    
+                    
+                        <p class ="headerInfo">Mail: mathis.foussac@gmail.com </p><p class="headerInfo">Tel:+33 6 52 90 26 23</p>
+                        
+                        
+
+                    
+                    
+                </div>
+
+                <div id="homeContent">
+                    <img id="background" src="./img/a.jpg">
+                    <div>
+                        <h1 id="title">Hello !</h1>
+                        <h1>My name is Mathis</h1>
+                        <h1>I'm a student in computer science</h1>
+                    </div>
+
+                        <img id="arrow" src="./img/arrow.png">
+                    
+                    
+
+
+                </div>
+
+                
+
+            </div>
+<!--
+            <div  id="presentation">
+                <h1></h1>
+            </div>
+-->
+            <div id="projectWindow" class="window">
+                <div id="projectHeader" class="header">
+                    <a href="#homeWindow" class="return"><img src="./img/homeIcon.png"></a>
+                        
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('Java')">Java</a>
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('SQL')">SQL</a>
+                    <!--<a href="#projectContent" class="headerInfo" onclick="displaySelector('Python')">Python</a> -->
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('Web')">Web</a>
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('Cs')">Cs</a>
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('Unity')">Unity</a>
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('System')">System</a>
+                    <!--<a href="#projectContent" class="headerInfo" onclick="displaySelector('Bash')">Bash</a> -->
+                        <a href="#projectContent" class="headerInfo" onclick="displaySelector('projName')">All projects</a>
+                        <p class="headerInfo"> Filter by project type : </p>
+                    
+                </div>
+                
+                <div id="projectContent">
+                    <h1>Projects</h1>
+                    <div id="projSelector">
+                        <a href="#currentProj" onclick="displayProj('sae1_1')"><h1 class="projName Java" >Pong</h1></a>
+                        <a href="#currentProj" onclick="displayProj('sae1_2')"><h1 class="projName Java" >Wine database</h1></a>
+                        <a href="#currentProj" onclick="displayProj('sae1_3')"><h1 class="projName SQL Python" >Company's website</h1></a>
+                        <a href="#currentProj" onclick="displayProj('sae1_4')"><h1 class="projName Web" >Lowatem</h1></a>
+                        <a href="#currentProj" onclick="displayProj('FleeFromHere')"><h1 class="projName Unity Cs" >Flee From Here</h1></a>
+                        <a href="#currentProj" onclick="displayProj('sae1_5')"><h1 class="projName System Bash" >Virtual machine setup</h1></a>
+
+                    </div>
+
+                    <div id = "currentProj">
+                        <div class="project" id = "sae1_1">
+                            <h1>Pong project</h1>
+
+                            <h3 >Pong is one of the first project we did in our courses, 
+                                being a traditionnal video game, it was a good project to introduce us to coding.
+                            </h3>
+
+                        </div>
+
+                        <div class="project" id = "sae1_2">
+                            <h1>Database conception for wine company</h1>
+                            <h3 >This project was about creating a working database based on a fictionnal wine company.
+                                We had to design the database so that it would 
+                            </h3>
+                        </div>
+
+                        <div class="project" id = "sae1_3">
+                            <h1>Website for fictionnal company</h1>
+
+                        </div>
+
+                        <div class="project" id = "sae1_4">
+                            <h1>Lowatem</h1>
+
+                        </div>
+
+                        <div class="project" id = "FleeFromHere">
+                            <h1>Flee From Here</h1>
+
+                        </div>
+
+                        <div class="project" id = "sae1_5">
+                            <h1>Virtual Machine Setup</h1>
+                            <br>
+                            <h3 >The goal of the project was to set up a virtual machine, using a linux distribution.
+                            </h3>
+                        </div>
+
+                        
+
+
+                    </div>
+
+
+                    <p>Mail: mathis.foussac@gmail.com Tel:+33 6 52 90 26 23</p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+
+
+</html>
