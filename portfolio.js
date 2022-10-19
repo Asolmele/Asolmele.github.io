@@ -30,7 +30,7 @@ function displayProj(projToBeDisplayed){
     for (let i = 0; i < elements.length; i++) {
         hideElement(elements.item(i));
         }
-    showElement(document.getElementById(projToBeDisplayed));
+    document.getElementById(projToBeDisplayed).style.display = "flex";
 }
 
 

@@ -254,4 +254,32 @@ img#background ~ *{
 
 .project{
     display:none;
+    flex-direction: column;
 }
+
+.projectInfoContainer{
+    width: 80%;
+    align-self: center;
+    display: flex;
+
+}
+
+.projectDescription{
+    flex-grow: 2;
+    flex-basis: 66%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectImage{
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+.projectImage img{
+    max-width: 100%;
+}
+
