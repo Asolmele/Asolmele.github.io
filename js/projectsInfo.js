@@ -41,8 +41,8 @@ let projects = {
         "title": "Mini RSA",
         "images": {
             "directory": "./images/Mini_RSA/",
-            "main_image": "no-image.png",
-            "project_images": ["no-image.png"]
+            "main_image": "../no-image.png",
+            "project_images": ["../no-image.png"]
         },
         "overview": "Implementation of the RSA encryption algorithm ",
         "informations": {
@@ -60,8 +60,8 @@ let projects = {
         "title": "Mini shell",
         "images": {
             "directory": "./images/Mini_shell/",
-            "main_image": "no-image.png",
-            "project_images": ["no-image.png"]
+            "main_image": "../no-image.png",
+            "project_images": ["../no-image.png"]
         },
         "overview": "Creation of a mini-Shell that allowed to run command coded internally.",
         "informations": {
@@ -151,8 +151,8 @@ let projects = {
         "title": "Lowatem",
         "images": {
             "directory": "./images/Lowatem/",
-            "main_image": "no-image.png",
-            "project_images": ["no-image.png"]
+            "main_image": "../no-image.png",
+            "project_images": ["../no-image.png"]
         },
         "overview": "The completion of a game (the Lowatem) following 'levels' given, and the creation of a basic AI for that game.",
         "informations": {
