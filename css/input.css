@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-height: 550px) and (min-width:700px){
+    #menu{
+        overflow: hidden;
+    }
+
+    
+    #projectContent {
+        overflow:scroll;
+    }
+}
+

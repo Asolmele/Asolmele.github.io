@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <script src="js/asset/jquery.min.js"></script>
+    <script src="./js/projectsInfo.js"></script>
+    <script src="./js/homepage.js"></script>
+    <script src="./js/projectShow.js"></script>
+    <script src="./projectSelector.js" defer></script>
+</head>
+
+<body class="h-screen bg-mint_cream" onload="showProjectsListHomepage()">
+    <header id="menu" class="flex h-[8%] lg:h-[7%] bg-m">
+        <div class="basis-[62.5%] lg:basis-3/5 flex flex-col-reverse  md:flex-row grow-0  content-center justify-center">
+            <h1 class="basis-2/5 justify-center  flex grow-0  text-center my-auto font-bold lg:text-xl  break-all">
+                Links : <a href='mailto:mathis.foussac@gmail.com' target="_blank" class="ml-[3%] w-[10%] " ><img src="images/mailto.png" alt='mail'></a>
+                <a href='https://github.com/Asolmele' target="_blank" class="ml-[3%] w-[10%] "><img src="images/github-mark.png" alt='github'></a>
+            </h1>
+            <h1 class= "basis-3/5 grow-0  my-auto text-center text-2xl sm:text-4xl lg:text-5xl prob:text-base font-bold">Foussac Mathis</h1>
+        </div>
+        <div class="basis-[37.5%] flex  lg:basis-2/5 grow-0  justify-end">
+            <div class="basis-1/2 flex grow flex-col content-center justify-center md-[3%] lg:mx-[10%] font-bold "><a class="text-sm text-center lg:text-right lg:text-lg mr-[5%] lg:mr-[10%]" href="./homepage.html">Home</a></div>
+            <div class="basis-1/2 grow flex flex-col content-center justify-center md-[3%] lg:mx-[10%] font-bold "><a class="text-sm text-center lg:text-right lg:text-lg mr-[5%] lg:mr-[10%]" href="./homepage.html#projects">Projects</a></div>
+        </div>
+    </header>
+
+    <div id="pres" class="flex flex-col lg:flex-row w-full mb-[10%] lg:h-[70%] lg:justify-start mt-[5%] lg:mt-[0%]">
+
+        <div class=" lg:h-full  lg:basis-2/5 flex flex-col lg:justify-center lg:content-center">
+            <img src="./images/pres.png" alt="Presentation image" class="object-contain max-w-[40%] self-center">
+        </div>
+
+        <div class="flex flex-col lg:h-full basis-2/3 lg:basis-3/5 mt-[5%] lg:mt-auto lg:justify-evenly">
+            <div>
+                <div class="flex flex-col font-bold xl:flex-row justify-center lg:justify-start text-center lg:text-left text-6xl w-full">
+                    Hello ! My name is 
+                    <div class=" ml-[1%] text-center"> 
+                        <p class="inline text-emerald-400"> Mathis </p>!<br><br>
+                    </div> 
+                </div>
+            </div>
+                <h2 class="text-lg md:text-2xl mx-[3%] lg:mx-[1%]">
+                    I'm a computer science student at the university of Bordeaux, Gradignan. <br><br>
+                    Through the courses and projects I've done, I've learned a lot of things ! <br><br>
+                    You can see below some examples of projects I did. 
+                </h2>
+            
+        </div>
+
+
+    </div>
+    
+    <div id="projects" class="w-full text-center bg-mint_cream/10">
+        <h1 class="font-bold text-5xl">My projects : </h1>
+        
+        <div id="projectsList" class="flex flex-row max-h-full px-[3%] overflow-y-visible justify-around flex-wrap w-full ">
+            
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
